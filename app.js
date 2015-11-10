@@ -1,7 +1,7 @@
 "use strict"
 
 // serve the page the user views on port...
-var PORT = 3000; 
+var PORT = process.env.PORT || 3000; 
 
 // use this variable to employ "middleware" that is
 // needed to translate code to a format that is readable
