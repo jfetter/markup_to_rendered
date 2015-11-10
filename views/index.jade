@@ -6,10 +6,9 @@ html(lang="en")
 	body
 		h1 MARK UP TO RENDERED PAGE
 		div(class="contain")
-			form(method="post", id="form")
-				input(type="text", id="text", placeholder="paste mark up")
-				input(type="submit", id="submit")
-		div(class="contain")
-			div(id="output") OUTPUT
+			input(type="text", id="text", placeholder="paste mark up")
+			button(id="submit") submit
+			div(class="contain") 
+			div(id="output") 
 		script(src="https://code.jquery.com/jquery-2.1.4.min.js")
 		script(src='/js/main.js')
