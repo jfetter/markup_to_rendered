@@ -1,10 +1,17 @@
-#contain{
+.contain{
 	margin-left: 5vw;
+	display: inline-block;
 }
 
-#text{
-	width: 45vw;
-	height: 45vw;
+#text, #output{
+	width: 40vw;
+	height: 40vw;
 	text-align: center;
 	display: block
+}
+
+#output{
+	border: 1px solid black;
+	float: right;
+	height: 50vw;
 }

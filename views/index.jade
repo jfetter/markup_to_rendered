@@ -5,9 +5,11 @@ html(lang="en")
 		link(href="/css/style.css", rel="stylesheet")
 	body
 		h1 MARK UP TO RENDERED PAGE
-		div(id="contain")
+		div(class="contain")
 			form(method="post", id="form")
 				input(type="text", id="text", placeholder="paste mark up")
 				input(type="submit", id="submit")
+		div(class="contain")
+			div(id="output") OUTPUT
 		script(src="https://code.jquery.com/jquery-2.1.4.min.js")
 		script(src='/js/main.js')

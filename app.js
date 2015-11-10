@@ -8,6 +8,7 @@ var PORT = 3000;
 // to this app. 
 var bodyParser = require('body-parser');
 var morgan = require("morgan");
+var marked = require("marked");
 
 
 var markupInput;
@@ -33,16 +34,20 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 // on the home page render the index page (which will be in Jade)
-app.get("/", function(req, res){
+app.get("/marked", function(req, res){
 	res.render("index");
 
 })
 
 // get the info from the input field and convert it to express speak
-app.post("/", function(req, res){
-	markupInput = bodyParser.req; 
+app.post("/marked", function(req, res){
+
+//	res.SEND  
 })
 
+// function convertToHTML(){
+// 	outPutHTML = marked(inputText);
+// }
 
 
 
