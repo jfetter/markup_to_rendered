@@ -1,0 +1,10 @@
+#contain{
+	margin-left: 5vw;
+}
+
+#text{
+	width: 45vw;
+	height: 45vw;
+	text-align: center;
+	display: block
+}
