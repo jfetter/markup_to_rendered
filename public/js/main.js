@@ -25,7 +25,7 @@ function sendMarkupInput () {
 // // as data and is converted into html then
 // // given to the output field to use as its
 // // html...  
- 			$("#output").empty().html($.parseHTML(data));
+ 			$("#output").empty().append($.parseHTML(data));
 		}) 
 	// })
 		// .fail(function(error){
